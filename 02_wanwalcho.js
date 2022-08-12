@@ -3,11 +3,6 @@ import * as THREE from 'three';
 import { OrbitControls } from "https://unpkg.com/three@0.141.0/examples/jsm/controls/OrbitControls.js"
 import { FBXLoader } from "https://unpkg.com/three@0.141.0/examples/jsm/loaders/FBXLoader.js";
 import { RGBELoader } from "https://unpkg.com/three@0.141.0/examples/jsm/loaders/RGBELoader.js";
-// import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.141.0/examples/jsm/controls/OrbitControls.js';
-// import { FBXLoader } from  'https://cdn.jsdelivr.net/npm/three@0.141.0/examples/jsm/loaders/FBXLoader.js';
-// import { RGBELoader } from 'https://cdn.jsdelivr.net/npm/three@0.141.0/examples/jsm/loaders/RGBELoader.js';
-
-
 
 class App {
     constructor() {
@@ -56,13 +51,6 @@ class App {
         this._camera = camera;
     }
 
-    // _setupLight() {
-    // const color = 0xffffff;
-    // const intensity = 1;
-    // const light = new THREE.DirectionalLight(color, intensity);
-    // light.position.set(-1, 2, 4);
-    // this._scene.add(light);
-    // }
 
     _setupLight() {
     const color = 0xffffff;

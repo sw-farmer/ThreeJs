@@ -47,7 +47,7 @@ class App {
             0.1,
             100
         );
-        camera.position.z = 2;
+        camera.position.z = 1;
         this._camera = camera;
     }
 
